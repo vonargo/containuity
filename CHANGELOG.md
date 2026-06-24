@@ -6,6 +6,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+- `homepage` and `repository` fields in the plugin manifest for discoverability.
+
 ## [0.1.0] - 2026-06-24
 
 ### Added
