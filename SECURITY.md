@@ -14,6 +14,8 @@ This plugin runs inside Claude Code. Two parts execute on your machine:
 As with any plugin, only install from a source you trust, and review the hook scripts
 before enabling. See Claude Code's plugin security guidance for background.
 
+For data handling, see [PRIVACY.md](PRIVACY.md) — the plugin collects nothing.
+
 ## Reporting a Vulnerability
 
 Please report security issues privately to **william.ford.space@gmail.com** rather than
