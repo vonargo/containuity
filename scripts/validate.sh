@@ -8,7 +8,7 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$ROOT"
+cd "$ROOT" || exit 1
 
 fail=0
 err()  { printf '  \033[31m✗\033[0m %s\n' "$1"; fail=1; }
@@ -36,7 +36,7 @@ for f in \
   hooks/session-rehydrate.sh \
   README.md LICENSE
 do
-  [ -f "$f" ] && ok "$f" || err "missing $f"
+  if [ -f "$f" ]; then ok "$f"; else err "missing $f"; fi
 done
 
 echo "Valid JSON:"
@@ -61,7 +61,7 @@ fi
 
 echo "Hook scripts are executable:"
 for f in hooks/precompact-nudge.sh hooks/session-rehydrate.sh scripts/validate.sh; do
-  [ -x "$f" ] && ok "$f" || err "$f is not executable (chmod +x)"
+  if [ -x "$f" ]; then ok "$f"; else err "$f is not executable (chmod +x)"; fi
 done
 
 echo "Hook scripts emit valid JSON:"
