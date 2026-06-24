@@ -6,8 +6,11 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-06-24
+
 ### Added
 - `homepage` and `repository` fields in the plugin manifest for discoverability.
+- `PRIVACY.md` privacy policy (the plugin collects no data), linked from `SECURITY.md`.
 
 ## [0.1.0] - 2026-06-24
 
@@ -23,5 +26,6 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Per-seat configuration via `.checkpoint.config` (`checkpoint.config.example` template).
 - README, worked EXAMPLE, MIT LICENSE, and a local validation script.
 
-[Unreleased]: https://github.com/vonargo/containuity/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/vonargo/containuity/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/vonargo/containuity/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/vonargo/containuity/releases/tag/v0.1.0
