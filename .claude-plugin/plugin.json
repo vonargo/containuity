@@ -1,0 +1,19 @@
+{
+  "name": "containuity",
+  "description": "Checkpoint workflow for long-running projects: at clean breakpoints, commit, save durable memories, refresh the living design doc (source-verified), and emit a post-compaction rehydrate go-block.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Will Ford",
+    "email": "william.ford.space@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "checkpoint",
+    "containuity",
+    "compaction",
+    "memory",
+    "design-doc",
+    "rehydrate",
+    "workflow"
+  ]
+}

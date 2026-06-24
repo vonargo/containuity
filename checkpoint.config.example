@@ -1,0 +1,17 @@
+# Continuity checkpoint config — one per "seat" (per project/clone).
+# Copy to your repo root as `.checkpoint.config` (or `.claude/checkpoint.config`)
+# and edit. Every key is optional; omitted keys use the default shown.
+
+# The source-verified "how" doc that is YOURS to keep non-stale.
+LIVING_DOC=docs/DESIGN.md
+
+# Where durable memories live: one fact per file, plus a MEMORY.md index.
+MEMORY_DIR=.claude/memory
+
+# offer = propose the commit and wait for approval (default, safest).
+# auto  = commit without asking, using the repo's inferred convention.
+COMMIT_MODE=offer
+
+# infer = copy author/message-style/co-author policy from `git log`.
+# Or write a freeform override, e.g.:  COMMIT_CONVENTION=conventional-commits, no co-author trailer
+COMMIT_CONVENTION=infer

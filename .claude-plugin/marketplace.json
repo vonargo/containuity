@@ -1,0 +1,20 @@
+{
+  "name": "containuity-dev",
+  "description": "Marketplace for the containuity checkpoint-workflow plugin",
+  "owner": {
+    "name": "Will Ford",
+    "email": "william.ford.space@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "containuity",
+      "description": "Checkpoint workflow for long-running projects: commit, save memories, refresh a source-verified living doc, and emit a post-compaction rehydrate go-block.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Will Ford",
+        "email": "william.ford.space@gmail.com"
+      }
+    }
+  ]
+}
