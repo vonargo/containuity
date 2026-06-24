@@ -9,7 +9,7 @@
     {
       "name": "containuity",
       "description": "Checkpoint workflow for long-running projects: commit, save memories, refresh a source-verified living doc, and emit a post-compaction rehydrate go-block.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "./",
       "author": {
         "name": "Will Ford",
